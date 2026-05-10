@@ -20,3 +20,13 @@ print(f"PROD = {PROD}")
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1004
 
 # Escreva sua solução abaixo
+
+# Leitura dos valores de entrada
+v1 = int(input())
+v2 = int(input())
+
+# Cálculo do produto
+PROD = v1 * v2
+
+# Saída formatada conforme a especificação
+print(f"PROD = {PROD}")
