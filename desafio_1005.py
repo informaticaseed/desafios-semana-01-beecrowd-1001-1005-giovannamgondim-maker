@@ -23,3 +23,14 @@ print(f"MEDIA = {MEDIA:.1f}")
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1005
 
 # Escreva sua solução abaixo
+
+# Leitura das notas
+A = float(input())
+B = float(input())
+
+# Cálculo da média ponderada
+# Nota A tem peso 3.5 e Nota B tem peso 7.5
+media = (A * 3.5 + B * 7.5) / 11
+
+# Impressão com 5 casas decimais (padrão oficial deste problema)
+print(f"MEDIA = {media:.5f}")
