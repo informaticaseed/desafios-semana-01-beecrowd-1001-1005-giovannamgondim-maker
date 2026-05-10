@@ -23,3 +23,15 @@ print(f"A={area:.4f}")
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
+
+# Leitura do raio como ponto flutuante
+raio = float(input())
+
+# Definição do valor de PI conforme o enunciado
+pi = 3.14159
+
+# Cálculo da área: pi vezes raio ao quadrado
+area = pi * (raio ** 2)
+
+# Impressão com f-string formatando para 4 casas decimais
+print(f"A={area:.4f}")
