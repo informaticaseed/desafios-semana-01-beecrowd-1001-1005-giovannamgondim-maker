@@ -17,3 +17,9 @@ print(f"X = {X}")
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
+
+# Usando format (compatível com Python 3+)
+print("X = {}".format(X))
+
+# Ou simplesmente
+print("X =", X)
